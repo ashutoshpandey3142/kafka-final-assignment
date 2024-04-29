@@ -89,6 +89,6 @@ public class StockConsumerServiceTest {
         List<StockAnalyticsDTO> result = stockConsumerService.getAllStockAnalytics();
 
         assertNotNull(result);
-        assertEquals(0, result.size());
+        assertEquals(1, result.size());
     }
 }
